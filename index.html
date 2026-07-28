@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DevPortfolio - Full Stack Developer portfolio" />
+    <title>DevPortfolio</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#top" aria-label="DevPortfolio home">DevPortfolio</a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="menu-icon menu-icon-open" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none"></path>
+          </svg>
+          <svg class="menu-icon menu-icon-close" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none"></path>
+          </svg>
+        </button>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#work">Work</a>
+          <a href="#stack">Stack</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-dark header-cta" href="#contact">Hire Me</a>
+      </div>
+      <div class="container mobile-menu" id="mobile-menu" hidden>
+        <nav class="mobile-nav" aria-label="Mobile">
+          <a href="#work">Work</a>
+          <a href="#stack">Stack</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a class="button button-dark mobile-cta" href="#contact">Hire Me</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="eyebrow">Available for projects</div>
+          <div class="hero-copy">
+            <h1>Full Stack Developer crafting practical software solutions.</h1>
+            <p>
+              I’m a 22-year-old intermediate developer focused on building
+              efficient, real-world tools that solve actual business problems
+              through clean code and modern architecture.
+            </p>
+            <div class="actions">
+              <a class="button button-dark" href="https://github.com/Mqt22?tab=repositories" target="_blank" rel="noreferrer">View My Work</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-divider">
+        <div class="container split">
+          <div class="eyebrow">About Me</div>
+          <div class="content-block about-text">
+            <p>
+              I am a 22-year-old intermediate developer driven by functional
+              design. I specialize in turning complex business requirements into
+              streamlined software applications. My goal is always to deliver
+              software that provides immediate practical value.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="stack" class="section section-divider">
+        <div class="container">
+          <div class="eyebrow">Technical Stack</div>
+          <div class="stack-grid">
+            <article class="stack-card">
+              <h2>Frontend</h2>
+              <div class="tags">
+                <span>React.js</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+            </article>
+            <article class="stack-card">
+              <h2>Backend</h2>
+              <div class="tags">
+                <span>FastAPI</span>
+                <span>Database Integration</span>
+                <span>PostgreSQL</span>
+              </div>
+            </article>
+            <article class="stack-card">
+              <h2>Desktop</h2>
+              <div class="tags">
+                <span>Electron</span>
+                <span>Cross-platform Apps</span>
+              </div>
+            </article>
+            <article class="stack-card">
+              <h2>Automation</h2>
+              <div class="tags">
+                <span>n8n</span>
+                <span>Workflow Design</span>
+              </div>
+            </article>
+            <article class="stack-card stack-card-wide">
+              <h2>Other</h2>
+              <div class="tags">
+                <span>API Integration</span>
+                <span>Bug Fixing</span>
+                <span>Version Control</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section section-divider">
+        <div class="container">
+          <div class="eyebrow">Selected Projects</div>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-media project-media-one">
+                <img src="Project1.png" alt="Project 1 screenshot showing the POS desktop application" loading="lazy" decoding="async" />
+              </div>
+              <div class="project-body">
+                <h2>POS Desktop Application</h2>
+                <p>
+                  A robust cross-platform desktop solution for retail management
+                  built with Electron.
+                </p>
+                <div class="chips">
+                  <span>React.js</span>
+                  <span>Tailwind CSS</span>
+                  <span>FastAPI</span>
+                  <span>Electron.js</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://demo-pos-navy.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com/Mqt22/Demo_Pos" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-media project-media-two">
+                <img src="Project3.png" alt="Project 3 screenshot showing the resume tailoring tool" loading="lazy" decoding="async" />
+              </div>
+              <div class="project-body">
+                <h2>Resume Tailoring Tool</h2>
+                <p>
+                  A smart utility that analyzes job descriptions to suggest
+                  resume improvements.
+                </p>
+                <div class="chips">
+                  <span>n8n</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/Mqt22/Resume-Tailoring" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com/Mqt22/Resume-Tailoring" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-media project-media-three">
+                <img src="Project2.png" alt="Project 2 screenshot showing the AI customer chat support interface" loading="lazy" decoding="async" />
+              </div>
+              <div class="project-body">
+                <h2>AI Customer Chat Support</h2>
+                <p>
+                  Automated support agent integrating LLMs to handle real-time
+                  business queries.
+                </p>
+                <div class="chips">
+                  <span>n8n</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/Mqt22/Demo_Pos" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com/Mqt22/Demo_Pos" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-divider">
+        <div class="container">
+          <div class="eyebrow">Methodology</div>
+          <div class="method-grid">
+            <article class="method-card">
+              <div class="method-icon">&lt;&gt;</div>
+              <h2>Clean Code</h2>
+              <p>Readable, maintainable, and scalable code is my baseline.</p>
+            </article>
+            <article class="method-card">
+              <div class="method-icon">⚒</div>
+              <h2>Practical Solutions</h2>
+              <p>I prioritize functional reliability over flashy features that do not serve the core goal.</p>
+            </article>
+            <article class="method-card">
+              <div class="method-icon">↗</div>
+              <h2>Continuous Learning</h2>
+              <p>I keep refining my stack and process to stay current and effective.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section section-divider">
+        <div class="container contact-inner">
+          <h2>Let's build something useful.</h2>
+          <div class="contact-links">
+            <a href="mailto:F2023332001@umt.edu.pk">Email</a>
+            <span aria-hidden="true">|</span>
+            <a href="https://github.com/Mqt22?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
+            <span aria-hidden="true">|</span>
+            <a href="https://www.linkedin.com/in/abdul-muqeet-shahzad-886800401/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>DevPortfolio</span>
+        <span>© 2026 Full Stack Developer</span>
+        <div class="footer-links">
+          <a href="https://github.com/Mqt22?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/abdul-muqeet-shahzad-886800401/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
